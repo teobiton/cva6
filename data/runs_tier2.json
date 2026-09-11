@@ -1,1 +1,211 @@
-[]
+[
+  {
+    "id": 34542407241,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241",
+    "head_branch": "master",
+    "head_sha": "f7c04c37",
+    "event": "schedule",
+    "created_at": "2026-09-10T23:29:54Z",
+    "updated_at": "2026-09-11T01:09:43Z",
+    "run_started_at": "2026-09-10T23:29:54Z",
+    "duration_seconds": 5989,
+    "total_jobs": 17,
+    "passed_jobs": 17,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:42Z",
+        "completed_at": "2026-09-11T00:33:15Z",
+        "duration_seconds": 1953,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429596",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:07:30Z",
+        "duration_seconds": 420,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429609",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T01:09:42Z",
+        "duration_seconds": 4152,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429616",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-v",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T01:00:14Z",
+        "duration_seconds": 3584,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429672",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-v"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:37:05Z",
+        "duration_seconds": 2195,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429692",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:24:21Z",
+        "duration_seconds": 1430,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429807",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-csr-embedded-tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:04:39Z",
+        "duration_seconds": 248,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429820",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-csr-embedded-tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:04:04Z",
+        "duration_seconds": 213,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429847",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:03:05Z",
+        "duration_seconds": 154,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429858",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:13:24Z",
+        "duration_seconds": 774,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429869",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:15:50Z",
+        "duration_seconds": 920,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429982",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / coremark",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:08:10Z",
+        "duration_seconds": 459,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429985",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "coremark"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:11:42Z",
+        "duration_seconds": 671,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094429999",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:23:39Z",
+        "duration_seconds": 1389,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094430019",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:24:11Z",
+        "duration_seconds": 1421,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094430032",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / hwconfig_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:30Z",
+        "completed_at": "2026-09-11T00:02:58Z",
+        "duration_seconds": 148,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094430060",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "hwconfig_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T00:00:31Z",
+        "completed_at": "2026-09-11T00:06:01Z",
+        "duration_seconds": 330,
+        "html_url": "https://github.com/teobiton/cva6/actions/runs/34542407241/job/103094430156",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      }
+    ]
+  }
+]
